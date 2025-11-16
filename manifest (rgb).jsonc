@@ -1,36 +1,49 @@
 {
-	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj5FwXtjkWNjs07NABZoCKwXpam+4O1ukwHTjHbqgIbH4urDjfjTqAtx1Y8PTtrvArEGDFw9EwNByYYZ76ooazg7Rpbz7zV9cpsSUJ/i+C5CJvqB3vnzGGi9oghdx8i9FjOLM6Dxh3QY9DmXS25vdNSwck0ZboQLLDvblAwscOqnd6atS2FpMXoAQdQKPsY3EczZ3+aMsOg0lif3Vy304ZIlyZByMGLwYfcEuH6oROZjDRSDYxT433RBwVd6zKVhZLRtNOFRqf2vfuZhfp25tSg3W83HAXZSzJ15U3F8dHW7qEwVsHyIl1FidAC43luMXqrOdZBHSt/Jht21I0/BmAQIDAQAB",
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlSxwQgLwZSu+H5NNqDNgKyqj/GvaCu+LLPFMZCifUxkynkA20lNvqHaVHBlBUcpW9gy5/4MLlHKVT265dHTT7XbccwxWZzBwNAvOMQ9FQrMiWDHLjyEfFfexS+RX/5YRRRqUJvLYBUE5B9yGmP6h1nNdwPegSnzN9ziIwRUFrA4795YJT7FRXfvmwHazhoRUnBkxMnDgneQ6tHLBEcKUMrmUC/EXedQ9SZNFqgMAovGgzPZv/EH0psVKeNV0f+PqkH4Mn6var55WYlu6tmxQyEplH+RaRpp21xNUSEUQgttQ7IQxb4ieTUX0FDwyDo3l0MfyBno+DCFzHKrB0INbiQIDAQAB",
 	"manifest_version": 3,
 	"name": "Zen (Light)",
 	"description": "The simplest light theme for Chrome",
 	"author": "qurle",
+	"icons": {
+		"16": "icons/icon16.png",
+		"32": "icons/icon32.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
 	"theme": {
 		// I use #RGB hexes. Translate to [R, G, B] arrays by the folliwing prompt:
 		// Translate this "#RRGGBB" hex codes to [R, G, B] arrays, where R, G and B are primitive numbers from 0 to 255. be consice in convertion
 		"colors": {
 			"bookmark_text": "#1C1C1C",
-			"button_background": "#FCFCFC",
+			"button_background": "#FFF",
 			"control_background": "#D2D2D2",
-			"frame": "#EEEEEE",
-			"frame_inactive": "#FCFCFC",
-			"ntp_background": "#FCFCFC",
+			"frame": "#E6E6E6",
+			"frame_inactive": "#FFF",
+			"ntp_background": "#FFF",
 			"ntp_header": "#F4F4F4",
 			"ntp_link": "#6D6D6D",
 			"ntp_text": "#1C1C1C",
-			"tab_background_text": "#6D6D6D",
-			"tab_background_text_inactive": "#6D6D6D",
+			// "tab_background": "#6D6D6D",
+			"tab_background_text": "#888888",
 			"tab_text": "#1C1C1C",
-			"toolbar": "#FCFCFC",
-			"toolbar_button_icon": "#1C1C1C",
-			"omnibox_background": "#FCFCFC",
-			"omnibox_text": "#6D6D6D"
+			"toolbar": "#FFF",
+			"toolbar_button_icon": "#6D6D6D",
+			"omnibox_background": "#FFF",
+			"omnibox_text": "#1C1C1C",
+			// "background_tab": "#EEEEEE",
+			// "toolbar_text": "#07f"
 		},
 		"tints": {
 			"buttons": [
 				-1,
 				0,
-				0.6
+				0.3
 			]
+			// "background_tab": [
+			// 	-1,
+			// 	0,
+			// 	0.485
+			// ]
 		},
 		"properties": {
 			"ntp_background_alignment": "bottom",
@@ -38,5 +51,5 @@
 		}
 	},
 	"update_url": "https://clients2.google.com/service/update2/crx",
-	"version": "1.2"
+	"version": "0.1"
 }

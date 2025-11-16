@@ -1,0 +1,97 @@
+{
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj5FwXtjkWNjs07NABZoCKwXpam+4O1ukwHTjHbqgIbH4urDjfjTqAtx1Y8PTtrvArEGDFw9EwNByYYZ76ooazg7Rpbz7zV9cpsSUJ/i+C5CJvqB3vnzGGi9oghdx8i9FjOLM6Dxh3QY9DmXS25vdNSwck0ZboQLLDvblAwscOqnd6atS2FpMXoAQdQKPsY3EczZ3+aMsOg0lif3Vy304ZIlyZByMGLwYfcEuH6oROZjDRSDYxT433RBwVd6zKVhZLRtNOFRqf2vfuZhfp25tSg3W83HAXZSzJ15U3F8dHW7qEwVsHyIl1FidAC43luMXqrOdZBHSt/Jht21I0/BmAQIDAQAB",
+	"manifest_version": 3,
+	"name": "Zen (Light)",
+	"description": "The simplest light theme for Chrome",
+	"author": "qurle",
+	"theme": {
+		"colors": {
+			"bookmark_text": [
+				28,
+				28,
+				28
+			],
+			"button_background": [
+				252,
+				252,
+				252
+			],
+			"control_background": [
+				210,
+				210,
+				210
+			],
+			"frame": [
+				238,
+				238,
+				238
+			],
+			"frame_inactive": [
+				252,
+				252,
+				252
+			],
+			"ntp_background": [
+				252,
+				252,
+				252
+			],
+			"ntp_header": [
+				244,
+				244,
+				244
+			],
+			"ntp_link": [
+				109,
+				109,
+				109
+			],
+			"ntp_text": [
+				28,
+				28,
+				28
+			],
+			"tab_background_text": [
+				109,
+				109,
+				109
+			],
+			"tab_background_text_inactive": [
+				109,
+				109,
+				109
+			],
+			"tab_text": [
+				28,
+				28,
+				28
+			],
+			"toolbar": [
+				252,
+				252,
+				252
+			],
+			"toolbar_button_icon": [
+				28,
+				28,
+				28
+			],
+			"omnibox_background": [
+				252,
+				252,
+				252
+			],
+			"omnibox_text": [
+				109,
+				109,
+				109
+			]
+		},
+		"properties": {
+			"ntp_background_alignment": "bottom",
+			"ntp_background_repeat": "no-repeat"
+		}
+	},
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"version": "1.2"
+}
